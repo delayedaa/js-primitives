@@ -18,7 +18,7 @@ If this is assigned as a lab, you can skip this part! Just do it in a [repl.it](
 1.) Find the last name in the following array:
 
 ```js
-var friends = [
+const friends = [
   'Moe',
   'Larry',
   'Curly',
@@ -47,7 +47,7 @@ var friends = 'Moe,Larry,Curly,Jane,Emma,Elizabeth,Elinor,Mary,Darcy,Grey,Lydia,
 5.) We have two lists of friends below. Combine the two arrays into one array, then sort them alphabetically.
 
 ```js
-var myFriends = [
+const myFriends = [
   'Rickon',
   'Meera',
   'Hodor',
@@ -61,7 +61,7 @@ var myFriends = [
   'Jon'
 ];
 
-var yourFriends = [
+const yourFriends = [
   'Bilbo',
   'Boromir',
   'Elrond',
@@ -77,7 +77,7 @@ var yourFriends = [
 6.) I have a list of favorite foods below. If `Popcorn` is my favorite food and `Potato chips` my second favorite, then how would you find the rank of another food? Try finding the rank of `Pho`.
 
 ```js
-var foods = [
+const foods = [
   'Popcorn',
   'Potato chips',
   'Shrimp',
@@ -108,13 +108,13 @@ var foods = [
 9.) Change the word "Space" to the word "Spice".
 
 ```
-var word = "Space";
+let word = "Space";
 ```
 
 10.) **BONUS** - Here are a list of `ages`
 
 ```js
-var ages = [83, 53, 37, 29, 60, 30, 66, 19, 59, 41, 9, 64, 19, 80, 24, 53, 70, 1, 53, 40, 92, 4, 71, 65, 8, 2, 51, 80, 94, 37, 80, 64, 19, 6, 14];
+const ages = [83, 53, 37, 29, 60, 30, 66, 19, 59, 41, 9, 64, 19, 80, 24, 53, 70, 1, 53, 40, 92, 4, 71, 65, 8, 2, 51, 80, 94, 37, 80, 64, 19, 6, 14];
 ```
 find the `median` age. The median is the number that is halfway into the sorted set. To remember the definition of a median, just think of the median of a road, which is the middlemost part of the road.
 
