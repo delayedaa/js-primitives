@@ -10,8 +10,9 @@ If this is assigned as a lab, you can skip this part! Just do it in a [repl.it](
 
 * Fork and clone this repository
 * Create a file in the `js` subdirectory named `pizza.js`
+* Make a `index.html`
 * Write your solution in that file
-* Run the file by typing `node js/pizza.js`
+* Run the file by typing `open index.html`
 
 ## Exercises
 
